@@ -1,4 +1,4 @@
-package com.gczhu.sort;
+package com.gczhu.alg.sort;
 
 import java.util.Random;
 
