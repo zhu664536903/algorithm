@@ -1,4 +1,4 @@
-package com.gczhu.alg.datastruct;
+package com.gczhu.datastruct;
 
 import java.io.*;
 import java.util.ArrayList;
