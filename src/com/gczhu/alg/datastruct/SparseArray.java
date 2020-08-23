@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *      3.第n行保存的是有效元素所在的行数、列数、值
  */
 public class SparseArray {
-
+    //将原组数转换成稀疏数组
     public int[][] converToSparseArray(int[][] oldArray){
         if (oldArray == null) return null;
         //遍历原二维数据，获得有效元素个数
@@ -47,6 +47,7 @@ public class SparseArray {
 
         return sparseArray;
     }
+    //序列化
     public boolean saveSparseArray(int[][] sparseArray,String path) throws IOException {
         if(sparseArray == null || path ==null) return false;
 
@@ -57,6 +58,7 @@ public class SparseArray {
 
         return true;
     }
+    //反序列化
     public int[][] getArray(String path) throws IOException, ClassNotFoundException {
         if(path == null) return null;
         File file = new File(path);
