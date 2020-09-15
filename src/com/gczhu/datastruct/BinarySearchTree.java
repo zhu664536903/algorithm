@@ -1,4 +1,4 @@
-package com.gczhu.tree;
+package com.gczhu.datastruct;
 
 import java.util.Random;
 

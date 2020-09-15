@@ -1,6 +1,4 @@
-package com.gczhu.queue;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLFault;
+package com.gczhu.datastruct;
 
 import java.util.Scanner;
 
